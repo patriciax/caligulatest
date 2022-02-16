@@ -74,7 +74,97 @@ function myscripts() {
     },
   });
 
+  gsap.to("nav", {
+    border: "1px solid #8b8b8b",
+    immediateRender: false,
+    scrollTrigger: {
+      trigger: ".section-1",
+      scroller: ".container-main",
+      scrub: true,
+      end: '+=100%'
+    },
+  });
+  gsap.to(".lines", {
+    border: "1px solid #8b8b8b",
+    immediateRender: false,
+    scrollTrigger: {
+      trigger: ".section-1",
+      scroller: ".container-main",
+      scrub: true,
+      end: '+=100%'
+    },
+  });
 
+ gsap.to(".ul-nav a", {
+    color: "#191817",
+    immediateRender: false,
+    scrollTrigger: {
+      trigger: ".section-1",
+      scroller: ".container-main",
+      scrub: true,
+      end: '+=100%'
+    },
+  });
+  gsap.to(".icons-option-nav", {
+    color: "#191817",
+    immediateRender: false,
+    scrollTrigger: {
+      trigger: ".section-1",
+      scroller: ".container-main",
+      scrub: true,
+      end: '+=100%'
+    },
+  });
+  gsap.to(".icons-option-nav a", {
+    color: "#191817",
+    immediateRender: false,
+    scrollTrigger: {
+      trigger: ".section-1",
+      scroller: ".container-main",
+      scrub: true,
+      end: '+=100%'
+    },
+  });
+
+
+  gsap.to("body", {
+    "background": "#f4f7f6",
+    immediateRender: false,
+    scrollTrigger: {
+      trigger: ".s2",
+      scroller: ".container-main",
+      scrub: true,
+    },
+  });
+  gsap.to(".move-img", {
+  
+    "transform": "translate3d(-28rem, 40rem, 10px)",
+    immediateRender: false,
+    scrollTrigger: {
+      trigger: ".s2",
+      scroller: ".container-main",
+      scrub: true,
+    },
+  });
+  gsap.to("body", {
+    "background": "#fff",
+    immediateRender: false,
+    scrollTrigger: {
+      trigger: ".s3",
+      scroller: ".container-main",
+      scrub: true,
+    },
+  });
+  gsap.to(".move-img", {
+  
+    "transform": "translate3d(7rem, 75rem, 10px)",
+    immediateRender: false,
+    scrollTrigger: {
+      trigger: ".s3",
+      scroller: ".container-main",
+      scrub: true,
+    },
+  });
   /*
   gsap.to("body", {
     "background": "red",
@@ -106,7 +196,14 @@ function myscripts() {
 $(window).on("load", function () {
   $('header').appendTo('body');
 });*/
-
+$('.slick-carousel').slick({
+  infinite: true,
+  slidesToShow: 3, // Shows a three slides at a time
+  slidesToScroll: 1, // When you click an arrow, it scrolls 1 slide at a time
+  arrows: true, // Adds arrows to sides of slider
+  dots: true, // Adds the dots on the bottom,
+  autoplay:true
+});
   const div = document.querySelectorAll(".letterlogo");
   setTimeout(function () {
     TweenMax.staggerFrom(div[0].children, 0.45, { y: 50, opacity: 0 }, 0.1);
@@ -194,7 +291,26 @@ $(window).on("load", function () {
     
 
   })
-
+  $('.slider-for').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    asNavFor: '.slider-nav-categories'
+  });
+  $('.slider-nav-categories').slick({
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    asNavFor: '.slider-for',
+    dots: false,
+    focusOnSelect: true
+  });
+ 
+  $('a[data-slide]').click(function(e) {
+    e.preventDefault();
+    var slideno = $(this).data('slide');
+    $('.slider-nav-categories').slick('slickGoTo', slideno - 1);
+  });
 
 }
 /****************SCROLL******************* */

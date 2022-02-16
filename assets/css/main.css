@@ -10,7 +10,7 @@
 
 body {
   font-family: "Fira Mono", monospace;
-  transition: .5s;
+  transition: 0.5s;
 }
 /*
 .o-scroll {
@@ -20,7 +20,7 @@ body {
 .navbar a {
   font-family: "Fira Sans", sans-serif;
   font-size: 0.9rem;
-  color:#fff;
+  color: #fff;
 }
 .letterlogo {
   font-family: "Local Brewery";
@@ -29,7 +29,7 @@ body {
   display: inline-flex;
   color: transparent;
 }
-.color-a{
+.color-a {
   fill: #fff;
 }
 #letter-invert {
@@ -39,14 +39,14 @@ body {
 .letter-invert {
   width: 18px;
 }
-.icons-options{
-  display: flex!important;
-    justify-content: end!important;
-    height: auto;
-    margin-right: 2rem;
+.icons-options {
+  display: flex !important;
+  justify-content: end !important;
+  height: auto;
+  margin-right: 2rem;
 }
-.icons-options li{
-  margin: 0!important;
+.icons-options li {
+  margin: 0 !important;
 }
 #cont-max {
   width: max-content;
@@ -63,7 +63,7 @@ body {
   margin-top: 1.9rem;
   margin-left: -1.3rem;
 }
-#logo{
+#logo {
   height: 200px;
 }
 .header {
@@ -350,9 +350,9 @@ nav{
   bottom: 58%;
   left: 55%;
 }
-.icon-cart-noti p{
-  font-size: .8rem;
-    font-weight: 100;
+.icon-cart-noti p {
+  font-size: 0.8rem;
+  font-weight: 100;
 }
 .main-link {
   align-items: center;
@@ -445,7 +445,6 @@ nav{
   filter: drop-shadow(2px 7px 5px #b9b9b9);
   /*transform: rotate(8deg);*/
   filter: blur(2px);
-
 }
 .main-categories p {
   opacity: 0;
@@ -461,7 +460,7 @@ nav{
   font-family: "Local Brewery";
   transition: 0.7s;
 }
-.main-categories p::after{
+.main-categories p::after {
   content: "";
   position: absolute;
   border: 1px solid #272727;
@@ -498,7 +497,7 @@ nav{
   transform: perspective(800px) rotateY(0deg);
   opacity: 1;
 }
-.main-name p{
+.main-name p {
   margin: 0;
   font-size: 1.2rem;
 }
@@ -516,7 +515,6 @@ nav{
   width: 100%;
   height: 400px;
   background-repeat: no-repeat;
-
 }
 .card-img {
   height: 310px;
@@ -615,10 +613,10 @@ nav{
   margin: 0;
   font-size: 1.2rem;
 }
-.card .content{
+.card .content {
   display: none;
 }
-.view-more{
+.view-more {
   opacity: 0;
   z-index: 9999;
   color: #8b8b8b;
@@ -632,7 +630,7 @@ nav{
   font-family: "Local Brewery";
   transition: 0.7s;
 }
-.view-more::after{
+.view-more::after {
   content: "";
   position: absolute;
   border: 1px solid #272727;
@@ -643,10 +641,10 @@ nav{
   background: #f5f5f557;
   z-index: -1;
 }
-.card:hover  .view-more{
-opacity: 1;
+.card:hover .view-more {
+  opacity: 1;
 }
-.card:hover .card-img img{
+.card:hover .card-img img {
   filter: blur(1px);
 }
 /*****************************/
@@ -657,7 +655,6 @@ opacity: 1;
 .main-subscribe p {
   font-size: 2rem;
   font-family: "Local Brewery";
- 
 }
 .main-subscribe .img-subscribe {
   animation: hover-card 6s ease-in-out infinite forwards;
@@ -708,8 +705,10 @@ footer {
 .pt {
   padding-top: 7rem;
 }
-.footer-item a, .footer-item li, .footer-item p{
-  font-family: 'Fira Sans';
+.footer-item a,
+.footer-item li,
+.footer-item p {
+  font-family: "Fira Sans";
   font-size: 11px;
 }
 .wordCarousel {
@@ -1212,7 +1211,7 @@ a {
   }
 }
 :root {
-  --duration:12s;
+  --duration: 12s;
   --ease-in-quad: cubic-bezier(0.55, 0.085, 0.68, 0.53);
   --ease-in-cubic: cubic-bezier(0.55, 0.055, 0.675, 0.19);
   --ease-in-quart: cubic-bezier(0.895, 0.03, 0.685, 0.22);
@@ -1246,13 +1245,13 @@ a {
   --grid-gap: 2.0833333333vw;
   --grid-gap-negative: -2.0833333333vw;
 }
-.bg-red{
+.bg-red {
   background: red;
 }
-.bg-blue{
+.bg-blue {
   background: blue;
 }
-.blueviolet{
+.blueviolet {
   background: violet;
 }
 
@@ -1268,84 +1267,447 @@ a {
 }
 
 .tl-line > span {
-
-  transition: .8s cubic-bezier(.215,.61,.355,1);
-  transition-delay: .2s;
+  transition: 0.8s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition-delay: 0.2s;
   transform: translate(0, 100%);
 }
 
 .control .tl-line:first-child span {
-  transition-delay: .1s;
+  transition-delay: 0.1s;
 }
 
 .control .tl-line:nth-child(2) span {
-  transition-delay: .2s;
+  transition-delay: 0.2s;
 }
 
 .control .tl-line:nth-child(3) span {
-  transition-delay: .3s;
+  transition-delay: 0.3s;
 }
 
 .control .tl-line:nth-child(4) span {
-  transition-delay: .4s;
+  transition-delay: 0.4s;
 }
 
-.control.is-inview .tl-line>span {
+.control.is-inview .tl-line > span {
   transform: translate(0, 0);
 }
-.control .tl-line>span {
+.control .tl-line > span {
   transform: translate(0, 100%);
 }
 
 /********************carrito nav***********************/
-.mycart{
-visibility: hidden;
-position: fixed;
-background: red;
-right: 0;
-top: 0;
-height: 100vh;
-
-width: 401px;
+.mycart {
+  visibility: hidden;
+  position: fixed;
+  background: white;
+  width: 0px;
+  padding-left: 2rem;
+  right: 0px;
 }
-.mycart h2{
-
+.mycart h2 {
+  text-align: center;
+  margin-bottom: 3rem;
 }
-.grid-cart{
-
+.grid-cart {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
 }
-.mycart-item{
-
+.mycart-item {
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 1rem;
 }
-.name-product{
-
+.name-product {
 }
-.name-product h3{
-
+.name-product h3 {
+  font-size: 16px;
+  color: #424242;
+  font-family: "Fira Sans";
+  font-weight: 400;
+  margin-top: 0;
 }
-.img-mini-cart{
-
+.img-mini-cart {
+  width: 100px;
 }
-.input-quanty{
-
+.input-quanty {
+  width: 13px;
+  border-radius: 7px;
+  border: 1px solid #626262;
+  height: 21px;
+  padding: 0 0.5rem;
+  margin: 0 0.2rem;
 }
-.price-mini-cart{
-
+.quanty {
+  display: flex;
 }
-.trash{
-
+.price-mini-cart {
+  margin: 0;
 }
-.open{
-  transform: translateX(-25rem);
-  transition: .7s;
+.trash {
+  cursor: pointer;
+  font-size: 1.3rem;
+  margin-left: 1rem;
+}
+.open {
+  transform: translateX(-30rem);
+  transition: 0.5s;
   filter: blur(2px);
 }
-.open::after{
+.open::after {
   content: "";
-    background: #00000069;
-    position: absolute;
-    top: 0;
+  background: #00000069;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 99999;
+}
+.mini-cart .mycart {
+  visibility: visible;
+  width: 435px;
+}
+.close-cart {
+  text-align: end;
+  margin-right: 2.5rem;
+  padding-top: 1rem;
+  color: #000;
+  font-family: cursive;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.info-dates {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #424242;
+  font-family: "Fira Sans";
+}
+.quanty-my button {
+  padding: 1px 7px;
+  background: transparent;
+  color: #222222;
+  border: 0;
+}
+.quanty-my input {
+  border: 0;
+  border: 0;
+  width: 30px;
+}
+.price-mini-cart span {
+  color: #7a7a7a;
+}
+.quanty-my {
+  display: flex;
+}
+.item-total {
+}
+.slider-nav-categories h3 {
+  background: #fff;
+  color: #242322;
+  font-size: 16px;
+  line-height: 40px;
+  margin: 25px;
+  position: relative;
+  text-align: center;
+  margin-top: 3rem;
+  cursor: pointer;
+  font-family: "Fira Sans";
+
+}
+.slider-nav-categories h3:hover {
+  background: #fff;
+  border: 1px solid;
+  border-radius: 2px;
+}
+.main {
+  width: 1030px;
+  display: block;
+  margin: 0 auto;
+}
+.slider-cat-item {
+}
+.slider-style{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.slider-item-img img{ 
+  width: 250px;
+  height: 300px;
+  border-radius: 3px;
+  object-fit: cover;
+  object-position: top;
+}
+.slider-item-txt img{
+  width: 260px;
+}
+.slider-item-txt{
+  width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.for{
+  display: flex;
+  justify-content: space-between;
+  width: 64%;
+  margin-top: 1rem;
+}
+.for p{
+  font-family: 'Local Brewery';
+  font-size: 1.5rem;
+}
+.slider-nav-categories .slick-current.slick-active h3{
+  background: #242322;
+  color: #fff;
+}
+.mt-6{
+  margin-top: 6rem;
+  margin-left: 0;
+  margin-right: 0;
+}
+.slider-cat-item .products-container {
+  
+  gap: 5rem;
+
+}
+.slider-cat-item .card-img {
+  
+  display: flex;
+  justify-content: center;
+}
+.slider-cat-item  .view-more::after {
+ 
+  left: 4.5rem;
+
+}
+.nav-2 .lines {
+  border-top: 1px solid #191817!important;
+  border-bottom: 1px solid #191817!important;
+}
+
+.nav-2  nav {
+
+  border: 1px solid #191817!important;
+}
+
+.nav-2  #letter-invert {
+  width: 18px;
+  opacity: 1;
+}
+
+.nav-2  .color-a {
+  fill: #191817;
+}
+
+.nav-2 .ul-nav a {
+
+  color: #191817;
+}
+
+.nav-2 .icons-option-nav,
+.nav-2  .icons-option-nav a {
+  color: #191817;
+}
+
+.nav-2  nav {
+
+  background: #fff;
+}
+.p {
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+.headline {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  color: white;
+  z-index: 3;
+  width: 100%;
+  text-align: center;
+  font-weight: normal !important;
+}
+
+.letterlogo {
+  height: 100px;
+  font-size: 5rem;
+
+}
+.main-banner-logo #letter-invert{
+width: 25px;
+  margin-top: 15px;
+  opacity: 1;
+}
+.content-product{
+  text-align: center;
+}
+.move-img{
+  transition: .5s;
+  position: fixed;
+  transform: none;
+}
+.marca-product img{
+  width: 124px;
+  margin-top: 3rem;
+}
+.bread{
+  width: 100%;
+  text-align: start;
+ 
+}
+.marca-product{
+  margin-top: 1rem;
+}
+.bread a{
+  cursor: pointer;
+  color: #191817;
+}
+.content-fix{
+  text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.form-control--disabled {
+  color: var(--form-control-disabled);
+  cursor: not-allowed;
+}
+
+input[type=checkbox] {
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none;
+  /* Remove most all native input styles */
+  -moz-appearance: none;
+       appearance: none;
+  /* For iOS < 15 */
+  background-color: var(--form-background);
+  /* Not removed via appearance */
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid currentColor;
+  border-radius: 0.15em;
+  transform: translateY(-0.075em);
+  display: grid;
+  place-content: center;
+}
+
+input[type=checkbox]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  -webkit-clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+          clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+  transform: scale(0);
+  transform-origin: bottom left;
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--form-control-color);
+  /* Windows High Contrast Mode */
+  background-color: CanvasText;
+}
+
+input[type=checkbox]:checked::before {
+  transform: scale(1);
+}
+
+input[type=checkbox]:focus {
+  outline: max(2px, 0.15em) solid currentColor;
+  outline-offset: max(2px, 0.15em);
+}
+
+input[type=checkbox]:disabled {
+  --form-control-color: var(--form-control-disabled);
+  color: var(--form-control-disabled);
+  cursor: not-allowed;
+}
+
+.grid-product{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+.plr-7{
+  padding: 0px 7rem;
+}
+.description-product{
+  text-align: start;
+}
+.size .form-control{
+  font-size: 13px;
+  display: flex;
+  margin-right: 1rem
+
+}
+input[type=checkbox]:focus {
+  outline: none;
+
+}
+.size label{
+  cursor: pointer;
+}
+.size input {
+  margin-right: 0.8rem;
+   
+}
+.info-size{
+  font-size: 12px;
+  margin-right: 6rem;
+}
+.info-size a{
+  color: #646464;
+}
+.size{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+.size h3{
+  margin-right: 2rem;
+}
+.grid-img{
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.w-600{
+  width: 600px;
+}
+.grid-img img{
+  width: 200px;
+}
+.grid-conetnt{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.more-product  .slick-slide img {
+  
+  width: 100%;
+  height: 290px;
+  object-fit: contain;
+}
+.btn-add{
+  background: #222222;
+  color: #fff;
+  padding: 10px 11px;
+  border-radius: 5px;
+
+}
+.price{
+  font-family: "Local Brewery";
+    font-size: 2rem;
+}
+.content-price{
+  display: flex;
+    align-items: center;
     width: 100%;
-    height: 100vh;
-    z-index: 99999;
+    justify-content: space-between;
+    margin: 3rem 0;
 }

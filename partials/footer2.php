@@ -1,4 +1,4 @@
-<section data-scroll-section class="pt">
+<section data-scroll-section class="">
   <div class="">
 
     <div class="main-subscribe">
@@ -9,9 +9,9 @@
       </div>
       <div class="txt">
 
-        <p class="control"  data-scroll>
-    
-        <span class="tl-line">
+        <p class="control" data-scroll>
+
+          <span class="tl-line">
             <span>Get special discounts, limited
               edition pre launch,</span>
           </span>
@@ -32,7 +32,7 @@
             </span>
           </span>
         </p>
-      
+
       </div>
       <div>
         <div class="fomr">
@@ -47,31 +47,58 @@
     </div>
 </section>
 <footer data-scroll-section>
-  <div class="footer-item">
-    <ul>
-      <li><a href="">About</a></li>
-      <li><a href="">FAQ</a></li>
-      <li><a href="">Contact</a></li>
-    </ul>
-  </div>
-  <div class="footer-item">
-    <img src="" alt="">
-    <p>2021 Copyright <br> Registered Trademark
 
-    </p>
-  </div>
   <div class="footer-item">
-    <ul>
-      <li>Privacy Policy</li>
-      <li>Terms & Conditions</li>
-    </ul>
+    <p>2021 Copyright
+    </p>
+    <p>Registered Trademark</p>
+    <p><a href="">Privacy Policy</a></p>
+    <p><a href="">Terms & Conditions</a></p>
   </div>
+
 </footer>
 
 
 
 
+<style>
+  footer {
+    display: flex;
+    grid-template-columns: none;
+    margin: 0 1rem;
+    text-align: center;
+    align-items: center;
+    border-top: none;
+    height: 10vh;
+  }
 
+  .main-subscribe input {
+    font-size: 1rem;
+
+  }
+
+  button {
+    font-size: 1rem;
+  }
+
+  .tl-line {
+    white-space: nowrap;
+    width: initial;
+    width: initial;
+  }
+
+  .footer-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .footer-item p {
+    font-size: 12px;
+    margin-left: 1rem;
+  }
+</style>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -85,8 +112,7 @@
 <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
-
-<script src="assets/js/index.js"></script>
+<script src="assets/js/index2.js"></script>
 </body>
 
 </html>

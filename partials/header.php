@@ -68,32 +68,72 @@
             </div>
 
           </li>
-       
+
         </ul>
       </div>
     </ul>
 
   </nav>
-  <div class="mycart">
-            <h2>My cart</h2>
-            <div class="mycart-content">
-              <div class="mycart-item">
-                <div class="name-product">
-                  <h3>Name Product</h3>
-                </div>
-                <div class="grid-cart">
-                  <img class="img-mini-cart" src="https://pngimg.com/uploads/polo_shirt/polo_shirt_PNG8170.png" alt="">
-                  <div>
-                    <input class="input-quanty" id="number" type="number" value="42">
-                  </div>
-                  <p class="price-mini-cart">9.9999</p>
-                  <div>
-                    <i class="trash" class="fa fa-trash" aria-hidden="true"></i>
 
-                  </div>
-                </div>
-              </div>
+</header>
+<div class="mycart">
+  <div class="close-cart cart-menu">x</div>
+  <h2>My cart</h2>
+  <div class="mycart-content">
+    <div class="mycart-item">
+
+      <div class="grid-cart">
+        <img class="img-mini-cart" src="https://pngimg.com/uploads/polo_shirt/polo_shirt_PNG8170.png" alt="">
+        <div>
+          <div class="name-product">
+            <h3>Name Product</h3>
+          </div>
+          <div class="info-dates">
+            <p class="price-mini-cart">$9.999 <span>x2</span></p>
+            <div class="quanty">
+              <!----  <span>x</span>
+              <span>+</span>
+              <input class="input-quanty" id="number" type="number" value="2">
+              <span>-</span>--->
             </div>
           </div>
-</header>
 
+        </div>
+        <div class="quanty-my">
+          <button><span>+</span></button>
+          <input type="text" value="2">
+          <button><span>-</span></button>
+          <i class="fa fa-trash-o trash" aria-hidden="true"></i>
+        </div>
+
+      </div>
+    </div>
+
+    <div>
+      <div class="subt item-total">
+        <p>
+          Subtotal
+        </p>
+
+        <p>$ 1,998.000</p>
+      </div>
+      <div class="item-total">
+        <p>Shipping</p>
+        <p> $ 5.000
+        </p>
+      </div>
+      <div class="item-total">
+        <p>
+          Total
+          $ 5.000
+        </p>
+        <p> $ 2,003.000
+        </p>
+      </div>
+
+    </div>
+
+
+  </div>
+</div>
+</div>
