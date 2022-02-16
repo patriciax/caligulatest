@@ -156,7 +156,7 @@
     height: 100vh;
     width: 70px;
     border: 1px solid #fff;
-
+    margin-left: -1px;
   }
 
   .ul-nav {
