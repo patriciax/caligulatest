@@ -7,7 +7,7 @@
     <?php require('partials/header2.php'); ?>
   </div>
   <section data-scroll-section class="plr-7">
-    <div class="slider-item-txt marca-product">
+    <div class="slider-item-txt marca-product" >
       <div class="bread">
         <a href="categorias.php">
           <i class="fa fa-angle-left" aria-hidden="true"></i>

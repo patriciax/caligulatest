@@ -1,5 +1,5 @@
 <?php require('partials/main.php'); ?>
-<?php require('partials/header.php'); ?>
+<?php require('partials/header2.php'); ?>
 
 <!---<div class="idex-a"></div>-->
 <div data-scroll-container data-barba="container" data-barba-namespace="home" class="wrapper container-main">
