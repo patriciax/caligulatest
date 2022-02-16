@@ -20,7 +20,7 @@
 <header class="header  slider-nav" id="header">
   <nav>
     <div class="nav-item">
-     <a href="index2.php">
+     <a href="index.php">
      <svg id="letter-invert" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75.01 164.6">
 
 <g id="Capa_2" data-name="Capa 2">
@@ -33,7 +33,7 @@
     </div>
     <div class="nav-item lines">
       <ul class="ul-nav">
-        <li class=" "><a href="index2.php">Home1</a></li>
+        <li class=" "><a href="index.php">Home1</a></li>
         
         <li class="main-a txt-end"><a href="">Manifesto</a></li>
         <li class=""><a href="categorias.php">Categorias</a></li>
