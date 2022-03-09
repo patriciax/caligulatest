@@ -1,4 +1,5 @@
 <section data-scroll-section>
+  <h3 class="title-main">Products</h3>
   <span>
     <span class="wt-100">
       <div class="main-product">

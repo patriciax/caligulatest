@@ -73,6 +73,16 @@ function myscripts() {
       end: '+=100%'
     },
   });
+  gsap.to(".idiom a", {
+    color: "#191817",
+    immediateRender: false,
+    scrollTrigger: {
+      trigger: ".section-1",
+      scroller: ".container-main",
+      scrub: true,
+      end: '+=100%'
+    },
+  });
 
   gsap.to("nav", {
     border: "1px solid #8b8b8b",

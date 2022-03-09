@@ -466,7 +466,7 @@ nav{
   border: 1px solid #272727;
   padding: 5rem;
   border-radius: 50%;
-  left: 6.5rem;
+  left: 27%;
   top: -3.5rem;
 }
 .main-categories a:hover p {
@@ -673,6 +673,8 @@ nav{
   padding: 0.6rem 1rem;
   margin: 1rem;
   width: 300px;
+  font-family: 'Local Brewery';
+  font-weight: 400;
 }
 button {
   font-size: 1rem;
@@ -681,6 +683,8 @@ button {
   padding: 0.8rem 1rem;
   border-radius: 6px;
   color: #fff;
+  font-family: 'Local Brewery';
+  font-weight: 400;
 }
 .fomr {
   text-align: center;
@@ -734,6 +738,7 @@ footer {
   height: 45px;
   margin-bottom: 45px;
   display: block;
+  font-family: 'Local Brewery';
 }
 
 .flip2 {
@@ -1710,4 +1715,42 @@ input[type=checkbox]:focus {
     width: 100%;
     justify-content: space-between;
     margin: 3rem 0;
+}
+.title-main{
+  color: #272727;
+  font-size: 2.75rem;
+  padding: 0 10px;
+text-align: center;
+margin-bottom: 5rem;
+  display: block;
+  font-family: 'Local Brewery';
+  font-weight: 400;
+}
+.direction{
+  flex-direction: column;
+}
+.idiom{
+  display: flex;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+ 
+  font-family: 'Local Brewery';
+  gap: 0.5rem;
+
+
+}
+.idiom a{
+  color: #fff;
+}
+.idiom a:nth-child(1){
+  font-weight: bold;
+}
+.ws{
+  bottom: 1rem;
+  position: fixed;
+  right: 1rem;
+}
+.ws img{
+  width: 50px;
+  height: auto;
 }
